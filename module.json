@@ -1,0 +1,28 @@
+{
+    "name": "lithernia-mana-system",
+    "title": "Lithernia Mana System",
+    "description": "Implements the Lithernia mana system for D&D5e.",
+    "version": "1.0.0",
+    "minimumCoreVersion": "0.8.9",  
+    "compatibleCoreVersion": "10", 
+    "authors": [
+      { "name": "Sariuki" }
+    ],
+    "esmodules": ["./scripts/main.js"],
+    "scripts": [],  
+    "styles": [],
+    "packs": [],
+    "dependencies": [
+      {
+        "name": "dnd5e",
+        "manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-4.1.1/system.json"  
+      }
+    ],
+    "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "./lang/en.json"
+      }
+    ]
+  }
