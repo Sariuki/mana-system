@@ -1,28 +1,55 @@
 {
-    "name": "lithernia-mana-system",
-    "title": "Lithernia Mana System",
-    "description": "Implements the Lithernia mana system for D&D5e.",
-    "version": "1.0.0",
-    "minimumCoreVersion": "0.8.9",  
-    "compatibleCoreVersion": "10", 
-    "authors": [
-      { "name": "Sariuki" }
-    ],
-    "esmodules": ["./scripts/main.js"],
-    "scripts": [],  
-    "styles": [],
-    "packs": [],
-    "dependencies": [
+  "name": "lithernia-mana-system",
+  "title": "Lithernia Mana System",
+  "description": "Implements the Lithernia mana system for D&D5e.",
+  "version": "1.0.0",
+  "minimumCoreVersion": "9", 
+  "compatibleCoreVersion": "10",
+  "authors": [
+    { 
+      "name": "Your Name",
+      "discord": "Your Discord", // Optional
+      "ko-fi": "Your Ko-fi Link" // Optional
+    }
+  ],
+  "socket": false, // You likely don't need socket functionality for mana
+  "scripts": [],
+  "esmodules": [
+    "./scripts/main.js",
+    "./scripts/lithernia-mana.js"
+  ],
+  "styles": ["./styles/style.css"], // Add a stylesheet if you have one
+  "relationships": {
+    "systems": [
       {
-        "name": "dnd5e",
-        "manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-4.1.1/system.json"  
-      }
-    ],
-    "languages": [
-      {
-        "lang": "en",
-        "name": "English",
-        "path": "./lang/en.json"
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "2.1.0", // Use the minimum D&D5e version you support
+          "verified": "2.1.3", // Optionally add a verified version 
+          "maximum": "2.1.99"  // Set a maximum compatible version to prevent conflicts
+        }
       }
     ]
-  }
+    // You likely don't need "requires" unless your module depends on others
+  },
+  "packs": [], // Remove packs section unless you have custom compendium packs
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "./lang/en.json"
+    },
+    // Add other supported languages here if applicable
+  ],
+  "compatibility": {
+    "minimum": "10",  // Minimum FoundryVTT version
+    "verified": "10.291", // Optionally specify a verified version
+    "maximum": "10.999" // Maximum compatible FoundryVTT version
+  },
+  "bugs": "Your Bug Reporting Link", // Optional
+  "url": "Your Module Website or Repository", // Optional
+  "manifest": "https://github.com/Sariuki/mana-system/edit/main/module.json", // Optional
+  "download": "Your Download URL (if applicable)", // Optional
+  "changelog": "Your Changelog URL (if applicable)" // Optional
+}
