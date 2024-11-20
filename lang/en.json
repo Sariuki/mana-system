@@ -1,0 +1,30 @@
+{
+    "LITHERNIA.ManaSystem": "Lithernia Mana System",
+    "LITHERNIA.CurrentMana": "Current Mana",
+    "LITHERNIA.MaxMana": "Max Mana",
+    "LITHERNIA.ManaDebt": "Mana Debt",
+    "LITHERNIA.InvocationCircle": "Invocation Circle",
+    "LITHERNIA.Feats": "Feats",
+    "LITHERNIA.Mana": "Mana",
+    "LITHERNIA.Debt": "Debt",
+    "LITHERNIA.None": "None",
+    "LITHERNIA.Minor": "Minor",
+    "LITHERNIA.Intermediate": "Intermediate",
+    "LITHERNIA.Major": "Major",
+
+    "LITHERNIA.ManaAffinity": "Mana Affinity",
+    "LITHERNIA.SpellWeaver": "Spell Weaver",
+    "LITHERNIA.ManaRegulation": "Mana Regulation",
+    "LITHERNIA.EldritchRecovery": "Eldritch Recovery",
+    "LITHERNIA.ResilientSpellcaster": "Resilient Spellcaster",
+
+    "LITHERNIA.InsufficientMana": "Insufficient mana to cast the spell!",
+    "LITHERNIA.ManaRegenerated": "Mana regenerated!",
+    "LITHERNIA.ExhaustionLevel": "Exhaustion Level",
+    "LITHERNIA.ManaOverload": "You have overexerted your magical energies!", 
+
+    "LITHERNIA.Setting.ManaCostMultiplier": "Mana Cost Multiplier",
+    "LITHERNIA.Setting.ManaCostMultiplierDesc": "A multiplier applied to the base mana cost of spells.",
+    "LITHERNIA.Setting.EnableManaDebt": "Enable Mana Debt",
+    "LITHERNIA.Setting.EnableManaDebtDesc": "Allows characters to exceed their maximum mana at a cost (e.g., exhaustion)."
+  }
